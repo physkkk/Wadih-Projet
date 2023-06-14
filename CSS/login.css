@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(222, 231, 243);
+    
+}
+.firstcard{
+ /* margin-right: 15%; */
+ margin: auto;
+    width: 70%;
+    height: 900px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(135, 135, 135);
+    box-shadow:  3px 3px rgba(35,93,99,.04),0px -1px 3px rgba(35,93,99,.08);
+ padding: 10px;
+ border: 0 solid #e5e7eb;
+}
+.firstcard img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.imgs{
+   margin-top: 10%;
+    display: inline-block;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+h2{
+    color: lightblue;
+    margin-right: 35%;
+}
+h4{
+    margin-right: 7%;
+
+}
+ .sty{
+    height: 35px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 4px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+
+
+}
+.sty2{
+    margin-right: 10%;
+}
+.con2{
+
+    width: 700px;
+    height: 100%;
+    background-color:lightgrey;
+    
+}
+.con1{
+    background-color: lightblue;
+    width: 700px;
+    height: 100%;
+}
+.mycon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    height: 40px;
+    width: 85%;
+    background-color: lightblue;
+    border-radius:5px ;
+        border: 1px solid #e5e7eb;
+        margin-top: 5%;
+        margin-right: 7%;
+}
+.two{
+    color: rgb(122, 118, 118);
+}
+.button2{
+    height: 40px;
+    width: 85%;
+    background-color: rgb(122, 118, 118);
+    border-radius:5px ;
+        border: 1px solid #e5e7eb;
+        margin-top: 5%;
+        margin-right: 7%;
+}
