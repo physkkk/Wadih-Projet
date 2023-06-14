@@ -1,0 +1,271 @@
+
+/*header design(nav-logo-buttons)*/
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color:rgb(222, 231, 243);
+}
+
+
+
+
+header{
+    border: 3px solid rgb(187, 214, 241);
+    background-color:  rgb(187, 214, 241);
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+header img{
+
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    width:7%;
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-left: 4%;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 2%;
+    border: 1px solid rgb(187, 214, 241);
+    width:40%;
+
+}
+
+
+
+nav a{ 
+  margin: auto;
+  text-decoration: none;
+  color:rgb(20, 54, 69);
+  font-size: large;
+  padding-left: 2%;
+  border:1px solid rgb(187, 214, 241);
+ 
+}
+
+
+#log{
+    border-radius: 3px  ;
+    background-color: rgb(94, 147, 221);
+    font-size: medium;
+    color: rgb(168, 212, 233);
+    border: 1px 20 0 20 0;
+    text-align: center;
+    padding: 1%;
+    border-radius: 5%;
+    margin: auto;
+    margin-left: -14% ;
+
+}
+
+
+  #log :hover { 
+
+   background: rgb(5, 5, 37);
+ }
+
+header h6{
+    width: 14%;
+    height: 6%;
+    border-radius: 3px  ;
+    background-color: rgb(224, 227, 232);
+    font-size: medium;
+    color: rgb(57, 152, 157);
+    border: 1px 20 0 20 0 ;
+    border: 1px solid rgb(18, 108, 211);
+    text-align: center;
+    padding: 1%;
+    border-radius: 5%;
+    margin: auto;
+    margin-left: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header h6:hover{
+  background-color: rgb(208, 218, 224);
+  color: rgb(64, 110, 120);
+}
+
+header nav :hover{
+
+    color: rgb(213, 150, 24);
+    transform: translateY(6px);
+}
+
+
+/*  Introduction-Video*/
+   
+
+.intro{
+    display: flex;
+    gap: 10%;
+
+}
+
+video{
+
+    margin-top: 3%;
+    border: 2px solid;
+    width: 60%;
+    height: 40%;
+    margin-right: 2%;
+    
+}
+
+ .intro h1{
+  
+    margin-top: 20%;
+    text-align: center;
+    color: rgb(44, 121, 193);
+    
+}
+
+ .intro h1:hover{
+    color: rgb(76, 184, 223);
+    transform: translateY(-10px);
+}
+
+/* Cards Design*/
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-content:end;
+    gap: 5%;
+    margin-top: 20%;
+}
+
+.cards :hover{
+    
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+    transition: color 0.3s ease-out;
+}
+   
+
+
+
+.card1{
+    border: 1px solid rgb(151, 222, 221);
+    background-color: white;
+    padding: 4% ;
+    display: flex;
+    width: 300px;
+    height:350px ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+    
+}
+
+.card1 h1{
+    font-size: x-large;
+    color: rgb(20, 144, 117);
+    text-align: center;
+    font-weight: 500;
+}
+
+.card1 img{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.card1 p{
+    border: 1px solid white;
+    color: rgb(6, 73, 58);
+    text-align: center;
+    width:100%;
+}
+
+.card2{
+   
+    border: 1px solid rgb(151, 222, 221);
+    background-color: white;
+    padding: 4%;
+    display: flex;
+    width: 300px;
+    height:350px ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+    
+}
+
+.card2 h1{
+    font-size: x-large;
+    color: rgb(20, 144, 117);
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.card2 img{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+
+.card2 p{
+
+    border: 1px solid white;
+    color: rgb(6, 73, 58);
+    text-align: center;
+    width:100%;
+}
+
+.card3{
+    border: 1px solid rgb(151, 222, 221);
+    background-color: white;
+    padding:5% ;
+    display: flex;
+    width: 300px;
+    height:350px ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+    
+}
+
+.card3 h1{
+    font-size: x-large;
+    color: rgb(20, 144, 117);
+    text-align: center;
+    font-weight: 500;
+}
+
+.card3 img{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  
+}
+
+.card3 p{
+    border: 1px solid white;
+    color: rgb(6, 73, 58);
+    text-align: center;
+    padding: 1%;
+    width:100%;
+}
