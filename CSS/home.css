@@ -16,8 +16,8 @@ body{
 
 
 header{
-    border: 3px solid rgb(187, 214, 241);
-    background-color:  rgb(187, 214, 241);
+    border: 3px solid rgb(170, 217, 248);
+    background-color:  rgb(180, 221, 247);
     display: flex;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -29,12 +29,10 @@ header img{
     justify-content: end;
     align-content: center;
     width:7%;
-    border: 2px solid black;
+    border: 2px solid rgb(180, 221, 247);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    margin-left: 4%;
+  
 }
-
-
 
 
 
@@ -44,7 +42,7 @@ nav{
     align-content: center;
     justify-content: space-between;
     gap: 2%;
-    border: 1px solid rgb(187, 214, 241);
+    border: 1px solid rgb(180, 221, 247);
     width:40%;
 
 }
@@ -57,7 +55,7 @@ nav a{
   color:rgb(20, 54, 69);
   font-size: large;
   padding-left: 2%;
-  border:1px solid rgb(187, 214, 241);
+  border:1px solid rgb(180, 221, 247);
  
 }
 
@@ -72,7 +70,8 @@ nav a{
     padding: 1%;
     border-radius: 5%;
     margin: auto;
-    margin-left: -14% ;
+    margin-left: -14%; ;
+    cursor: pointer;
 
 }
 
@@ -97,6 +96,7 @@ header h6{
     margin: auto;
     margin-left: 4%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
 }
 
 header h6:hover{
@@ -123,10 +123,12 @@ header nav :hover{
 video{
 
     margin-top: 3%;
-    border: 2px solid;
+    border: 2px solid rgb(166, 202, 251);
     width: 60%;
     height: 40%;
     margin-right: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
     
 }
 
@@ -141,6 +143,7 @@ video{
  .intro h1:hover{
     color: rgb(76, 184, 223);
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 /* Cards Design*/
@@ -152,6 +155,7 @@ video{
     align-content:end;
     gap: 5%;
     margin-top: 20%;
+   
 }
 
 .cards :hover{
@@ -269,3 +273,35 @@ video{
     padding: 1%;
     width:100%;
 }
+
+
+/* Footer design*/
+
+footer{
+    border: 2px solid rgb(222, 233, 247) ;
+    background-color: rgb(222, 233, 247);
+    background-image: url(../IMG/backimg.png);
+    background-repeat: no-repeat;
+    background-size: 65% ;
+}
+
+
+footer p{
+    display: flex;
+    justify-content: end;
+    align-content: start;
+    font-size: large;
+    text-align: center;
+    padding: 6%;
+
+}
+
+
+
+ footer nav a{
+    border: 1px solid rgb(222, 233, 247);
+    font-size: large;
+    margin-bottom: -23%;
+    color: rgb(37, 37, 40);
+} 
+
