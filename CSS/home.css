@@ -9,7 +9,7 @@
 }
   
 body{
-    background-color:rgb(222, 231, 243);
+    background-color:rgb(235, 238, 238);
 }
 
 
@@ -56,23 +56,28 @@ nav a{
   font-size: large;
   padding-left: 2%;
   border:1px solid rgb(180, 221, 247);
- 
+  
+  
 }
 
 
-#log{
+.buttons a{
+
+border: 1px solid red;
+
+
+
+  /*
     border-radius: 3px  ;
     background-color: rgb(94, 147, 221);
     font-size: medium;
     color: rgb(168, 212, 233);
-    border: 1px 20 0 20 0;
     text-align: center;
     padding: 1%;
     border-radius: 5%;
     margin: auto;
-    margin-left: -14%; ;
     cursor: pointer;
-
+*/
 }
 
 
@@ -81,22 +86,25 @@ nav a{
    background: rgb(5, 5, 37);
  }
 
-header h6{
+.buttons a{
+
+   /*
     width: 14%;
     height: 6%;
     border-radius: 3px  ;
     background-color: rgb(224, 227, 232);
     font-size: medium;
+    text-decoration: none;
     color: rgb(57, 152, 157);
-    border: 1px 20 0 20 0 ;
     border: 1px solid rgb(18, 108, 211);
     text-align: center;
     padding: 1%;
     border-radius: 5%;
     margin: auto;
-    margin-left: 4%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     cursor: pointer;
+    */
+   
 }
 
 header h6:hover{
@@ -159,7 +167,7 @@ video{
 }
 
 .cards :hover{
-    
+
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 24px 36px rgba(0,0,0,0.11),
     0 24px 46px var(--box-shadow-color);
