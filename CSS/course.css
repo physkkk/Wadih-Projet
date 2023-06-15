@@ -1,0 +1,72 @@
+/* labels*/
+
+.all{
+    border: 2px solid red;
+    display:flex;
+
+}
+form{
+
+    font-size: medium;
+    background-color:rgb(222, 231, 243);
+    border: 1.5px solid black;
+    width: 20%;
+    /* height: 7%; */
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+select{
+    background-color:rgb(222, 231, 243);;
+    border: 1.5px solid black;
+    /* width: 30%; */
+    /* height: 5%; */
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+
+.grade{
+    border: 1.5px solid black;
+    /* width: 8%;
+    height: 5%; */
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+form h1{
+    color: rgb(52, 82, 52);
+}
+
+
+.city{
+    font-size: large;
+    color: rgb(52, 82, 52);
+    text-align: center;
+}
+
+.abc{
+
+    font-size: medium;
+    color: rgb(52, 82, 52);
+    text-align: center;
+    /* width: 100%;
+*/
+}
+
+
+.cba{
+    font-size: medium;
+    color: rgb(52, 82, 52);
+    text-align: center;
+}
+
