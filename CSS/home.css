@@ -1,72 +1,59 @@
 
 /*header design(nav-logo-buttons)*/
 
-
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
   
-body{
-    background-color:rgb(235, 238, 238);
-}
-
-
-
-
-header{
+  body {
+    background-color: rgb(235, 238, 238);
+  }
+  
+  header {
     border: 3px solid rgb(170, 217, 248);
-    background-color:  rgb(180, 221, 247);
+    background-color: rgb(180, 221, 247);
     display: flex;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-
-header img{
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  header img {
     display: flex;
     justify-content: end;
     align-content: center;
-    width:7%;
+    width: 7%;
     border: 2px solid rgb(180, 221, 247);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
   
-}
-
-
-
-nav{
+  nav {
     display: flex;
     justify-content: center;
     align-content: center;
     justify-content: space-between;
     gap: 2%;
     border: 1px solid rgb(180, 221, 247);
-    width:40%;
-
-}
-
-
-
-nav a{ 
-  margin: auto;
-  text-decoration: none;
-  color:rgb(20, 54, 69);
-  font-size: large;
-  padding-left: 2%;
-  border:1px solid rgb(180, 221, 247);
-
+    width: 40%;
+  }
   
-}
-
-
-.buttons a{
-
-
-
-
-    border-radius: 3px  ;
+  nav a {
+    margin: auto;
+    text-decoration: none;
+    color: rgb(20, 54, 69);
+    font-size: large;
+    padding-left: 2%;
+    border: 1px solid rgb(180, 221, 247);
+  }
+  
+  /* .buttons a {
+    border: 1px solid red;
+  
+    border-radius: 3px;
     background-color: rgb(94, 147, 221);
     font-size: medium;
     color: rgb(168, 212, 233);
@@ -74,240 +61,244 @@ nav a{
     padding: 1%;
     border-radius: 5%;
     margin: auto;
-    cursor: pointer;
-
-}
-
-
-  #log :hover { 
-
-   background: rgb(5, 5, 37);
- }
-
-.buttons a{
-
-   
-    width: 14%;
-    height: 6%;
-    border-radius: 3px  ;
-    background-color: rgb(224, 227, 232);
-    font-size: medium;
-    text-decoration: none;
-    color: rgb(57, 152, 157);
-    border: 1px solid rgb(18, 108, 211);
-    text-align: center;
-    padding: 1%;
-    border-radius: 5%;
-    margin: auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    cursor: pointer;
+    cursor: pointer; */
+  /* } */
+  
+  .buttons {
+      padding-right: 39%;
+      padding-top: 37px;
+  }
+  
+  #log :hover {
+    background: rgb(5, 5, 37);
+  }
+  
+  /* .buttons a {
     
-   
-}
-
-header h6:hover{
-  background-color: rgb(208, 218, 224);
-  color: rgb(64, 110, 120);
-}
-
-header nav :hover{
-
+      width: 14%;
+      height: 6%;
+      border-radius: 3px  ;
+      background-color: rgb(224, 227, 232);
+      font-size: medium;
+      text-decoration: none;
+      color: rgb(57, 152, 157);
+      border: 1px solid rgb(18, 108, 211);
+      text-align: center;
+      padding: 1%;
+      border-radius: 5%;
+      margin: auto;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      cursor: pointer;
+     
+  } */
+  
+  header h6:hover {
+    background-color: rgb(208, 218, 224);
+    color: rgb(64, 110, 120);
+  }
+  
+  header nav :hover {
     color: rgb(213, 150, 24);
     transform: translateY(6px);
-}
-
-
-/*  Introduction-Video*/
-   
-
-.intro{
+  }
+  
+  /*  Introduction-Video*/
+  
+  .intro {
     display: flex;
     gap: 10%;
-
-}
-
-video{
-
+  }
+  
+  video {
     margin-top: 3%;
     border: 2px solid rgb(166, 202, 251);
     width: 60%;
     height: 40%;
     margin-right: 2%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
-    
-}
-
- .intro h1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
   
+  .intro h1 {
     margin-top: 20%;
     text-align: center;
     color: rgb(44, 121, 193);
-    
-}
-
- .intro h1:hover{
+  }
+  
+  .intro h1:hover {
     color: rgb(76, 184, 223);
     transform: translateY(-10px);
     cursor: pointer;
-}
-
-/* Cards Design*/
-
-
-.cards{
+  }
+  
+  /* Cards Design*/
+  
+  .cards {
     display: flex;
     justify-content: center;
-    align-content:end;
+    align-content: end;
     gap: 5%;
     margin-top: 20%;
-   
-}
-
-.cards :hover{
-
+  }
+  
+  .cards :hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
-    0 24px 46px var(--box-shadow-color);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+      0 24px 46px var(--box-shadow-color);
     transition: color 0.3s ease-out;
-}
-   
-
-
-
-.card1{
-    border: 1px solid rgb(151, 222, 221);
-    background-color: white;
-    padding: 4% ;
-    display: flex;
-    width: 300px;
-    height:350px ;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30%;
-    
-}
-
-.card1 h1{
-    font-size: x-large;
-    color: rgb(20, 144, 117);
-    text-align: center;
-    font-weight: 500;
-}
-
-.card1 img{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-}
-
-.card1 p{
-    border: 1px solid white;
-    color: rgb(6, 73, 58);
-    text-align: center;
-    width:100%;
-}
-
-.card2{
-   
+  }
+  
+  .card1 {
     border: 1px solid rgb(151, 222, 221);
     background-color: white;
     padding: 4%;
     display: flex;
     width: 300px;
-    height:350px ;
+    height: 350px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30%;
-    
-}
-
-.card2 h1{
+  }
+  
+  .card1 h1 {
     font-size: x-large;
     color: rgb(20, 144, 117);
     text-align: center;
     font-weight: 500;
-
-}
-
-.card2 img{
+  }
+  
+  .card1 img {
     text-align: center;
     width: 50%;
     margin: auto;
-}
-
-
-.card2 p{
-
+  }
+  
+  .card1 p {
     border: 1px solid white;
     color: rgb(6, 73, 58);
     text-align: center;
-    width:100%;
-}
-
-.card3{
+    width: 100%;
+  }
+  
+  .card2 {
     border: 1px solid rgb(151, 222, 221);
     background-color: white;
-    padding:5% ;
+    padding: 4%;
     display: flex;
     width: 300px;
-    height:350px ;
+    height: 350px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30%;
-    
-}
-
-.card3 h1{
+  }
+  
+  .card2 h1 {
     font-size: x-large;
     color: rgb(20, 144, 117);
     text-align: center;
     font-weight: 500;
-}
-
-.card3 img{
+  }
+  
+  .card2 img {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .card2 p {
+    border: 1px solid white;
+    color: rgb(6, 73, 58);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card3 {
+    border: 1px solid rgb(151, 222, 221);
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+  }
+  
+  .card3 h1 {
+    font-size: x-large;
+    color: rgb(20, 144, 117);
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .card3 img {
     text-align: center;
     width: 80%;
     margin: auto;
+  }
   
-}
-
-.card3 p{
+  .card3 p {
     border: 1px solid white;
     color: rgb(6, 73, 58);
     text-align: center;
     padding: 1%;
-    width:100%;
-}
-
-
-/* Footer design*/
-
-footer{
-    border: 2px solid rgb(222, 233, 247) ;
+    width: 100%;
+  }
+  
+  /* Footer design*/
+  
+  footer {
+    border: 2px solid rgb(222, 233, 247);
     background-color: rgb(222, 233, 247);
     background-image: url(../IMG/backimg.png);
     background-repeat: no-repeat;
-    background-size: 65% ;
-}
-
-
-footer p{
+    background-size: 65%;
+  }
+  
+  footer p {
     display: flex;
     justify-content: end;
     align-content: start;
     font-size: large;
     text-align: center;
     padding: 6%;
-
-}
-
-
-
- footer nav a{
+  }
+  
+  footer nav a {
     border: 1px solid rgb(222, 233, 247);
     font-size: large;
     margin-bottom: -23%;
     color: rgb(37, 37, 40);
-} 
-
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  .btn {
+      font-size: 1rem;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border: none;
+      padding: 0rem 2.5px;
+      outline: none;
+      border-radius: 0.4rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      background-color: rgb(255, 255, 255);
+      color: rgb(234, 234, 234);
+      font-weight: 600;
+      transition: 0.6s;
+      box-shadow: 0px 0px 60px #000000;
+      -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    }
+    
+    .btn:active {
+      scale: 0.92;
+    }
+    
+    .btn:hover {
+      background: rgb(2,29,78);
+      background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, #B4DDF7 60%);
+      color: rgb(4, 4, 38);
+    }
